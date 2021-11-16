@@ -34,4 +34,5 @@ while (repeat) {
   if (live == 0 && player != computer) {
     alert("Kesempatan Anda sudah habis! \nAnda Kalah!");
   }
+  // code to repeat the game
 }
