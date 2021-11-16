@@ -35,4 +35,7 @@ while (repeat) {
     alert("Kesempatan Anda sudah habis! \nAnda Kalah!");
   }
   // code to repeat the game
+  repeat = confirm("Mau Bermain Lagi?");
 }
+// message after exiting the game
+alert("Terima Kasih Sudah Bermain!");
