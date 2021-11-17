@@ -32,7 +32,7 @@ while (repeat) {
   }
   // alert the opportunity is up and the player loses
   if (live == 0 && player != computer) {
-    alert("Kesempatan Anda sudah habis! \nAnda Kalah!");
+    alert("Kesempatan Anda sudah habis! \nAngka yang dicari adalah " + computer);
   }
   // code to repeat the game
   repeat = confirm("Mau Bermain Lagi?");
